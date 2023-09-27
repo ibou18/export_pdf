@@ -1,0 +1,181 @@
+{
+    "payee": "Ibrahima Diallo",
+    "payment_number": "6228290127286798",
+    "payment_date": "22-May-2023",
+    "payment_currency": "USD",
+    "payment_amount": 9241.0,
+    "total": 9241.0,
+    "tab": [
+        {
+            "payout_reference": "6078354525613697",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 37.87
+        },
+        {
+            "payout_reference": "6154579401324539",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 1.92
+        },
+        {
+            "payout_reference": "6139853419463810",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Habib Fatako",
+            "facebook_Id": "101983759180001",
+            "remittance": 11.17
+        },
+        {
+            "payout_reference": "6237596119689534",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Habib Fatako",
+            "facebook_Id": "101983759180001",
+            "remittance": 0.21
+        },
+        {
+            "payout_reference": "6210404102408737",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "K2R Welcome PROD",
+            "facebook_Id": "658234430975680",
+            "remittance": 51.85
+        },
+        {
+            "payout_reference": "6213209545461526",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "K2R Welcome PROD",
+            "facebook_Id": "658234430975680",
+            "remittance": 2286.03
+        },
+        {
+            "payout_reference": "6240461206069692",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Kade Seck Officiel",
+            "facebook_Id": "105613565010880",
+            "remittance": 1030.28
+        },
+        {
+            "payout_reference": "6277562935692856",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Kade Seck Officiel",
+            "facebook_Id": "105613565010880",
+            "remittance": 3.88
+        },
+        {
+            "payout_reference": "6075494435899706",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "M'boma",
+            "facebook_Id": "103548195257395",
+            "remittance": 0.05
+        },
+        {
+            "payout_reference": "6240466109402535",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "M'boma",
+            "facebook_Id": "103548195257395",
+            "remittance": 0.48
+        },
+        {
+            "payout_reference": "6240499136065899",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Mamadi cond\u00e9",
+            "facebook_Id": "106867395064329",
+            "remittance": 229.77
+        },
+        {
+            "payout_reference": "6078365985612551",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Mohamed fatako",
+            "facebook_Id": "147102013806740",
+            "remittance": 0.04
+        },
+        {
+            "payout_reference": "6081210955328058",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Ads on Reels",
+            "facebook_name": "Oumi korka Sow",
+            "facebook_Id": "434527290083181",
+            "remittance": 0.61
+        },
+        {
+            "payout_reference": "6280424488740034",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Oumi korka Sow",
+            "facebook_Id": "434527290083181",
+            "remittance": 0.36
+        },
+        {
+            "payout_reference": "6137016606414158",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 0.01
+        },
+        {
+            "payout_reference": "6280448448737638",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 123.98
+        },
+        {
+            "payout_reference": "6157449171037562",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Paikoun Sar\u00e9 Officiel",
+            "facebook_Id": "100421322205275",
+            "remittance": 5426.24
+        },
+        {
+            "payout_reference": "6158297824286029",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Rights Manager",
+            "facebook_name": "Paikoun Sar\u00e9 Officiel",
+            "facebook_Id": "100421322205275",
+            "remittance": 10.43
+        },
+        {
+            "payout_reference": "6210403852408762",
+            "payout_period_start": "01-Apr-2023",
+            "payout_period_end": "30-Apr-2023",
+            "product": "Video Ad Activity",
+            "facebook_name": "Paikoun Sar\u00e9 Officiel",
+            "facebook_Id": "100421322205275",
+            "remittance": 25.82
+        }
+    ]
+}

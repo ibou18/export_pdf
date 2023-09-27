@@ -1,0 +1,28 @@
+{
+    "payee": "Ibrahima Diallo",
+    "payment_number": "4535011023281394",
+    "payment_date": "21-Oct-2021",
+    "payment_currency": "USD",
+    "payment_amount": 4668.42,
+    "total": 4668.42,
+    "tab": [
+        {
+            "payout_reference": "5166850853430743",
+            "payout_period_start": "01-Sep-2021",
+            "payout_period_end": "30-Sep-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 16.04
+        },
+        {
+            "payout_reference": "5150636301718857",
+            "payout_period_start": "01-Sep-2021",
+            "payout_period_end": "30-Sep-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Paikoun Sar\u00e9 Officiel",
+            "facebook_Id": "100421322205275",
+            "remittance": 4652.38
+        }
+    ]
+}

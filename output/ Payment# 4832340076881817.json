@@ -1,0 +1,82 @@
+{
+    "payee": "Ibrahima Diallo",
+    "payment_number": "4832340076881817",
+    "payment_date": "03-Feb-2022",
+    "payment_currency": "USD",
+    "payment_amount": 356.64,
+    "total": 356.64,
+    "tab": [
+        {
+            "payout_reference": "4632035253578973",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Fan Subscriptions (web)",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 10.0
+        },
+        {
+            "payout_reference": "4689957294453437",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Fan Subscriptions (mobile)",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 1.96
+        },
+        {
+            "payout_reference": "4720123978103428",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Facebook Stars (web)",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 1.0
+        },
+        {
+            "payout_reference": "4704957842953376",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Fan Subscriptions (mobile)",
+            "facebook_name": "Mamadi cond\u00e9",
+            "facebook_Id": "106867395064329",
+            "remittance": 27.13
+        },
+        {
+            "payout_reference": "4647707995345030",
+            "payout_period_start": "01-Nov-2021",
+            "payout_period_end": "30-Nov-2021",
+            "product": "Fan Subscriptions (mobile)",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 10.9
+        },
+        {
+            "payout_reference": "4670256866423475",
+            "payout_period_start": "01-Nov-2021",
+            "payout_period_end": "30-Nov-2021",
+            "product": "Fan Subscriptions (web)",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 40.0
+        },
+        {
+            "payout_reference": "4699132960202537",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Fan Subscriptions (web)",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 220.0
+        },
+        {
+            "payout_reference": "4704938652955295",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Fan Subscriptions (mobile)",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 45.65
+        }
+    ]
+}

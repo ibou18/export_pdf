@@ -1,0 +1,19 @@
+{
+    "payee": "Ibrahima Diallo",
+    "payment_number": "4362848280497669",
+    "payment_date": "22-Sep-2021",
+    "payment_currency": "USD",
+    "payment_amount": 2561.99,
+    "total": 2561.99,
+    "tab": [
+        {
+            "payout_reference": "5191653054283849",
+            "payout_period_start": "01-Aug-2021",
+            "payout_period_end": "31-Aug-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Paikoun Sar\u00e9 Officiel",
+            "facebook_Id": "100421322205275",
+            "remittance": 2561.99
+        }
+    ]
+}

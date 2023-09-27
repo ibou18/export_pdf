@@ -1,0 +1,82 @@
+{
+    "payee": "Ibrahima Diallo",
+    "payment_number": "4774722799310213",
+    "payment_date": "21-Jan-2022",
+    "payment_currency": "USD",
+    "payment_amount": 5071.04,
+    "total": 5071.04,
+    "tab": [
+        {
+            "payout_reference": "5265308706918285",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Anata fooly",
+            "facebook_Id": "1554909011221861",
+            "remittance": 85.34
+        },
+        {
+            "payout_reference": "5191996907582797",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "DS Collections",
+            "facebook_Id": "107822510847075",
+            "remittance": 0.99
+        },
+        {
+            "payout_reference": "5183596115089544",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Dole Diama Com\u00e9die",
+            "facebook_Id": "465075237318501",
+            "remittance": 18.23
+        },
+        {
+            "payout_reference": "5166953543420474",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "M'boma",
+            "facebook_Id": "103548195257395",
+            "remittance": 84.4
+        },
+        {
+            "payout_reference": "5265349873580835",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Oumi korka Sow",
+            "facebook_Id": "434527290083181",
+            "remittance": 2.17
+        },
+        {
+            "payout_reference": "5097457337036760",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "PSTV officiel",
+            "facebook_Id": "103946372041953",
+            "remittance": 3154.79
+        },
+        {
+            "payout_reference": "5103324076450089",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Paikoun Sar\u00e9 Officiel",
+            "facebook_Id": "100421322205275",
+            "remittance": 1725.11
+        },
+        {
+            "payout_reference": "5114955498620276",
+            "payout_period_start": "01-Dec-2021",
+            "payout_period_end": "31-Dec-2021",
+            "product": "Video Ad Activity",
+            "facebook_name": "Safi officiel",
+            "facebook_Id": "103665318627717",
+            "remittance": 0.01
+        }
+    ]
+}
