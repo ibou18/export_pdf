@@ -93,4 +93,6 @@ def upload_and_process_pdf():
 if __name__ == '__main__':
     pathlib.Path('input').mkdir(exist_ok=True)
     pathlib.Path('output').mkdir(exist_ok=True)
-    main.run(debug=True)
+    # main.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    main.run(host="0.0.0.0", port=port)

@@ -66,3 +66,5 @@
 2023-11-09 11:45:50,478 - INFO:  * Restarting with stat
 2023-11-09 11:45:50,588 - WARNING:  * Debugger is active!
 2023-11-09 11:45:50,592 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:59:49,952 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/main.py', reloading
+2023-11-09 11:59:49,985 - INFO:  * Restarting with stat
