@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 import logging
 
 
-app = Flask(__name__)
+main = Flask(__name__)
 log_filename = 'app.log'
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
 
@@ -67,7 +67,7 @@ def generate_json(file_name):
     # Return the JSON data
     return payment_data
 
-@app.route('/send', methods=['POST'])
+@main.route('/send', methods=['POST'])
 def upload_and_process_pdf():
     try:
         uploaded_file = request.files['file']
@@ -93,4 +93,4 @@ def upload_and_process_pdf():
 if __name__ == '__main__':
     pathlib.Path('input').mkdir(exist_ok=True)
     pathlib.Path('output').mkdir(exist_ok=True)
-    app.run(debug=True)
+    main.run(debug=True)
