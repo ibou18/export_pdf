@@ -55,6 +55,7 @@ def generate_json(file_name):
         json.dump(payment_data, json_file, indent=4)
 
     print(f'INFO : JSON data has been generated and saved as {"".join(file_name.name.split(".")[0:-1])}.json')
+    return payment_data
 
 
 if __name__ == "__main__":
@@ -77,3 +78,30 @@ if __name__ == "__main__":
         print(f'THERE HAS BEEN AN ERROR : \n{e}')
     finally:
         input('Click enter to exit...')
+        
+
+
+@app.route('/upload', methods=['POST'])
+def upload_and_process_pdf():
+    try:
+        uploaded_file = request.files['file']
+        if uploaded_file.filename != '':
+            # Save the uploaded PDF file
+            file_path = os.path.join('input', uploaded_file.filename)
+            uploaded_file.save(file_path)
+
+            # Call your existing code to generate JSON
+            json_data = generate_json(file_path)
+
+            # Return the JSON data as a response
+            return jsonify(json_data)
+        else:
+            return jsonify({'error': 'No file uploaded'})
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+if __name__ == '__main__':
+    pathlib.Path('input').mkdir(exist_ok=True)
+    pathlib.Path('output').mkdir(exist_ok=True)
+    app.run(debug=True)

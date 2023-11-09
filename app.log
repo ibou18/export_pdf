@@ -1,0 +1,53 @@
+2023-10-03 19:54:49,339 - WARNING:  * Debugger is active!
+2023-10-03 19:54:49,345 - INFO:  * Debugger PIN: 103-742-816
+2023-10-03 19:55:04,408 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/app.py', reloading
+2023-10-03 19:55:05,648 - WARNING:  * Debugger is active!
+2023-10-03 19:55:05,653 - INFO:  * Debugger PIN: 103-742-816
+2023-10-03 19:59:12,519 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/app.py', reloading
+2023-11-09 11:20:18,412 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-09 11:20:18,413 - INFO: [33mPress CTRL+C to quit[0m
+2023-11-09 11:20:18,413 - INFO:  * Restarting with stat
+2023-11-09 11:20:18,514 - WARNING:  * Debugger is active!
+2023-11-09 11:20:18,525 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:25:38,514 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/app.py', reloading
+2023-11-09 11:25:38,547 - INFO:  * Restarting with stat
+2023-11-09 11:25:38,737 - WARNING:  * Debugger is active!
+2023-11-09 11:25:38,744 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:25:44,422 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-09 11:25:44,422 - INFO: [33mPress CTRL+C to quit[0m
+2023-11-09 11:25:44,422 - INFO:  * Restarting with stat
+2023-11-09 11:25:44,531 - WARNING:  * Debugger is active!
+2023-11-09 11:25:44,536 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:26:58,562 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-09 11:26:58,562 - INFO: [33mPress CTRL+C to quit[0m
+2023-11-09 11:26:58,563 - INFO:  * Restarting with stat
+2023-11-09 11:26:58,664 - WARNING:  * Debugger is active!
+2023-11-09 11:26:58,669 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:31:08,026 - INFO: 127.0.0.1 - - [09/Nov/2023 11:31:08] "POST /send HTTP/1.1" 200 -
+2023-11-09 11:31:22,293 - INFO: 127.0.0.1 - - [09/Nov/2023 11:31:22] "POST /send HTTP/1.1" 200 -
+2023-11-09 11:32:53,916 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/app.py', reloading
+2023-11-09 11:32:53,945 - INFO:  * Restarting with stat
+2023-11-09 11:32:54,111 - WARNING:  * Debugger is active!
+2023-11-09 11:32:54,116 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:34:49,825 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/app.py', reloading
+2023-11-09 11:34:49,856 - INFO:  * Restarting with stat
+2023-11-09 11:35:10,887 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-09 11:35:10,887 - INFO: [33mPress CTRL+C to quit[0m
+2023-11-09 11:35:10,887 - INFO:  * Restarting with stat
+2023-11-09 11:35:10,981 - WARNING:  * Debugger is active!
+2023-11-09 11:35:10,987 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:35:20,367 - INFO: 127.0.0.1 - - [09/Nov/2023 11:35:20] "POST /send HTTP/1.1" 200 -
+2023-11-09 11:37:02,883 - INFO:  * Detected change in '/Users/ibrahimad/Documents/projets/_perso/Facebook/extract-pdf/app.py', reloading
+2023-11-09 11:37:02,919 - INFO:  * Restarting with stat
+2023-11-09 11:37:03,082 - WARNING:  * Debugger is active!
+2023-11-09 11:37:03,087 - INFO:  * Debugger PIN: 566-948-042
+2023-11-09 11:37:06,377 - INFO: Generating JSON for file  Payment# 6578074638975009.pdf
+2023-11-09 11:37:06,378 - INFO: JSON data has been generated and saved as  Payment# 6578074638975009.json
+2023-11-09 11:37:06,380 - INFO: 127.0.0.1 - - [09/Nov/2023 11:37:06] "POST /send HTTP/1.1" 200 -
+2023-11-09 11:37:57,866 - INFO: Generating JSON for file  Payment# 6578074638975009.pdf
+2023-11-09 11:37:57,867 - INFO: JSON data has been generated and saved as  Payment# 6578074638975009.json
+2023-11-09 11:37:57,868 - INFO: 127.0.0.1 - - [09/Nov/2023 11:37:57] "POST /send HTTP/1.1" 200 -
