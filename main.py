@@ -94,11 +94,20 @@ def upload_and_process_pdf():
 
             # Return the JSON data as a response
             return jsonify(json_data)
+            response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
+            return response
         else:
-            return jsonify({'error': 'No file uploaded'})
+            response = jsonify({'error': 'No file uploaded'})
+            response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
+            return response
 
     except Exception as e:
-        return jsonify({'error': str(e)})
+        response = jsonify({'error': str(e)})
+        response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
+        return response
+    else:
+        return jsonify({'error': 'No file uploaded'})
+
 
 if __name__ == '__main__':
     pathlib.Path('input').mkdir(exist_ok=True)
