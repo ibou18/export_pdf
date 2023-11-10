@@ -5,12 +5,22 @@ import json
 import fitz  # pip install PyMuPDF
 from flask import Flask, request, jsonify
 import logging
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 
 
 main = Flask(__name__)
 log_filename = 'app.log'
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
 
+# Define a list of allowed origins
+allowed_origins = [
+    "http://localhost:3000",
+    "http://localhost:3001",
+]
+
+CORS(app, resources={r"/send": {"origins": allowed_origins}})
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
