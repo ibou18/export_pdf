@@ -20,7 +20,8 @@ allowed_origins = [
     "http://localhost:3001",
 ]
 
-CORS(app, resources={r"/send": {"origins": allowed_origins}})
+# CORS(app, resources={r"/send": {"origins": allowed_origins}})
+CORS(app, resources={r"/send": {"origins": "*"}})
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
