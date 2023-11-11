@@ -17,10 +17,11 @@ logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime
 allowed_origins = [
     "http://localhost:3000",
     "http://localhost:3001",
+    "https://facebook-front.vercel.app"
 ]
 
-# CORS(main, resources={r"/send": {"origins": allowed_origins}})
-CORS(main, resources={r"/send": {"origins": "*"}})
+CORS(main, resources={r"/send": {"origins": allowed_origins}})
+# CORS(main, resources={r"/send": {"origins": "*"}})
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
