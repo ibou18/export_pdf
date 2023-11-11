@@ -22,7 +22,8 @@ allowed_origins = [
 
 # CORS(main, resources={r"/send": {"origins": allowed_origins}})
 # CORS(main, resources={r"/send": {"origins": "*"}})
-CORS(main, origins=allowed_origins)
+# CORS(main, origins=allowed_origins)
+CORS(main, supports_credentials=True, origins=allowed_origins)
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
