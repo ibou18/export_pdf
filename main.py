@@ -20,6 +20,7 @@ allowed_origins = [
     "https://facebook-front.vercel.app",
     "https://facebook-front.vercel.app/",
     "https://facebook-front.vercel.app/*",
+    "https://facebook-front.vercel.app/dashboard/bills"
 ]
 
 CORS(main, resources={r"/send": {"origins": allowed_origins}})
