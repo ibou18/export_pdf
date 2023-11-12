@@ -17,7 +17,8 @@ logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime
 allowed_origins = [
     "http://localhost:3000",
     "http://localhost:3001",
-    "https://facebook-front.vercel.app"
+    "https://facebook-front.vercel.app",
+    "https://meta.laguidev.com/"
 ]
 
 # CORS(main, resources={r"/send": {"origins": allowed_origins}})
