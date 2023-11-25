@@ -25,10 +25,10 @@ allowed_origins = [
     "https://meta.laguidev.com"
 ]
 
+CORS(main, supports_credentials=True, origins=allowed_origins)
 # CORS(main, resources={r"/send": {"origins": allowed_origins}})
 # CORS(main, resources={r"/send": {"origins": "*"}})
-CORS(main, origins=allowed_origins)
-# CORS(main, supports_credentials=True, origins=allowed_origins)
+# CORS(main, origins=allowed_origins)
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
@@ -114,7 +114,9 @@ def upload_and_process_pdf():
         response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
         return response
     else:
-        return jsonify({'error': 'No file uploaded'})
+        response = jsonify({'error': 'No file uploaded'})
+        response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
+        return response
 
 
 if __name__ == '__main__':
