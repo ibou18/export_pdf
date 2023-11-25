@@ -15,6 +15,8 @@ logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime
 
 # Define a list of allowed origins
 allowed_origins = [
+    "http://localhost:3000/",
+    "http://localhost:3000/*",
     "http://localhost:3000",
     "http://localhost:3001",
     "https://facebook-front.vercel.app",
