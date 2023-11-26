@@ -40,8 +40,10 @@ def add_cors_headers(response):
     if request_origin in allowed_origins:
         response.headers.add('Access-Control-Allow-Origin', request_origin)
         response.headers.add('Access-Control-Allow-Credentials', 'true')
-        # Add other CORS headers if necessary
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type, x-access-token')
+        # Ajoutez d'autres en-têtes CORS si nécessaire
     return response
+
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
