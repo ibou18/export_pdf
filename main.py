@@ -28,10 +28,20 @@ allowed_origins = [
 ]
 
 # CORS(main, supports_credentials=True, origins=allowed_origins)
-CORS(main, resources={r"/send": {"origins": allowed_origins}}, supports_credentials=False)
+CORS(main, resources={r"/send": {"origins": allowed_origins}}, supports_credentials=True)
 # CORS(main, resources={r"/send": {"origins": allowed_origins}})
 # CORS(main, resources={r"/send": {"origins": "*"}})
 # CORS(main, origins=allowed_origins)
+
+# Middleware for CORS
+@main.after_request
+def add_cors_headers(response):
+    request_origin = request.headers.get('Origin')
+    if request_origin in allowed_origins:
+        response.headers.add('Access-Control-Allow-Origin', request_origin)
+        response.headers.add('Access-Control-Allow-Credentials', 'true')
+        # Add other CORS headers if necessary
+    return response
 
 def generate_json(file_name):
     pdf_document = fitz.open(file_name)
