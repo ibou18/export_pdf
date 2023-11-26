@@ -28,7 +28,7 @@ allowed_origins = [
 ]
 
 # CORS(main, supports_credentials=True, origins=allowed_origins)
-CORS(main, resources={r"/send": {"origins": allowed_origins}}, supports_credentials=True)
+CORS(main, resources={r"/send": {"origins": allowed_origins}}, supports_credentials=False)
 # CORS(main, resources={r"/send": {"origins": allowed_origins}})
 # CORS(main, resources={r"/send": {"origins": "*"}})
 # CORS(main, origins=allowed_origins)
