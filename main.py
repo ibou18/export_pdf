@@ -27,11 +27,10 @@ allowed_origins = [
     "https://meta.laguidev.com"
 ]
 
-# CORS(main, supports_credentials=True, origins=allowed_origins)
+
 CORS(main, resources={r"/send": {"origins": allowed_origins}}, supports_credentials=True)
 # CORS(main, resources={r"/send": {"origins": allowed_origins}})
 # CORS(main, resources={r"/send": {"origins": "*"}})
-# CORS(main, origins=allowed_origins)
 
 # Middleware for CORS
 @main.after_request
@@ -117,7 +116,7 @@ def upload_and_process_pdf():
             json_data = generate_json(file_name)
 
             # Return the JSON data as a response
-            return jsonify(json_data)
+            response = jsonify(json_data)
             response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
             return response
         else:
@@ -129,10 +128,7 @@ def upload_and_process_pdf():
         response = jsonify({'error': str(e)})
         response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
         return response
-    else:
-        response = jsonify({'error': 'No file uploaded'})
-        response.headers.add("Access-Control-Allow-Origin", "*")  # Allow any origin
-        return response
+    return jsonify({"error": f"Erreur serveur: {e}"}), 500
 
 
 if __name__ == '__main__':
