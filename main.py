@@ -38,11 +38,12 @@ CORS(main, resources={r"/send": {"origins": allowed_origins}}, supports_credenti
 def add_cors_headers(response):
     request_origin = request.headers.get('Origin')
     if request_origin in allowed_origins:
-        response.headers.add('Access-Control-Allow-Origin', request_origin)
+        response.headers['Access-Control-Allow-Origin'] = request_origin
         response.headers.add('Access-Control-Allow-Credentials', 'true')
         response.headers.add('Access-Control-Allow-Headers', 'Content-Type, x-access-token')
         # Ajoutez d'autres en-têtes CORS si nécessaire
     return response
+
 
 
 def generate_json(file_name):
