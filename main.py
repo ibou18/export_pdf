@@ -24,7 +24,8 @@ allowed_origins = [
     "https://facebook-front.vercel.app/*",
     "https://meta.laguidev.com/"
     "https://meta.laguidev.com/*"
-    "https://meta.laguidev.com"
+    "https://meta.laguidev.com",
+    "https://laguidev.com"
 ]
 
 
@@ -54,6 +55,7 @@ def generate_json(file_name):
 
         for page_num in range(pdf_document.page_count):
             print(f'INFO : Generating JSON for file {file_name.name}')
+
             page = pdf_document.load_page(page_num)
             text = page.get_text()
             logging.info(f'Generating JSON for file {file_name.name}')
@@ -64,6 +66,7 @@ def generate_json(file_name):
             payment_currency = re.search(r'Payment Currency:\s*(.+)', text).group(1)
             payment_amount = re.search(r'Payment Amount:\s*([0-9,.]+)', text).group(1)
             total = re.search(r'Total:\s*([0-9,.$]+)', text).group(1)
+            
 
             payment_data = {
                     "payee": payment_payee.strip(),
@@ -74,6 +77,8 @@ def generate_json(file_name):
                     "total": float(total.replace(',', '').replace('$','').strip()),
                     "tab": []
             }
+            
+            
 
             remittance_lines = text.split('Product - Object Name - Object ID\nRemittance',maxsplit = 1)[-1].strip().split('\n')
             for line_number in range(0,len(remittance_lines)-3,4):
@@ -86,12 +91,16 @@ def generate_json(file_name):
                 current_entry["facebook_Id"] = facebook_id
                 current_entry["remittance"] = float(remittance_lines[line_number + 3].replace(',','').strip())
                 remittance_data.append(current_entry.copy())
+                print(f'INFO : im 343434',product_name,facebook_name,facebook_id)
+              
+                
 
         pdf_document.close()
         payment_data["tab"] = remittance_data
 
         # Write the JSON data to a file
         out_file = os.path.join('output',f'{"".join(file_name.name.split(".")[0:-1])}.json')
+        print(f'INFO : im 343434')
         with open(out_file, 'w') as json_file:
             json.dump(payment_data, json_file, indent=4)
 
@@ -152,5 +161,5 @@ if __name__ == '__main__':
     pathlib.Path('input').mkdir(exist_ok=True)
     pathlib.Path('output').mkdir(exist_ok=True)
     # main.run(debug=True)
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 1818))
     main.run(host="0.0.0.0", port=port)
