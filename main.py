@@ -22,8 +22,8 @@ allowed_origins = [
     "https://facebook-front.vercel.app",
     "https://facebook-front.vercel.app/",
     "https://facebook-front.vercel.app/*",
-    "https://meta.laguidev.com/"
-    "https://meta.laguidev.com/*"
+    "https://meta.laguidev.com/",
+    "https://meta.laguidev.com/*",
     "https://meta.laguidev.com",
     "https://laguidev.com"
 ]
