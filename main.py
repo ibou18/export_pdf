@@ -25,7 +25,8 @@ allowed_origins = [
     "https://meta.laguidev.com/",
     "https://meta.laguidev.com/*",
     "https://meta.laguidev.com",
-    "https://laguidev.com"
+    "https://laguidev.com",
+    "https://facebook-front-moctar.vercel.app
 ]
 
 
